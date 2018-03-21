@@ -15,7 +15,10 @@ public class People {
 	public void dance(){
 
 
-		System.out.println("我在这里");
+
+		System.out.println("跳舞");
+
+
 
 	}
 
