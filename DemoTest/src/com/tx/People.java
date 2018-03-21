@@ -11,5 +11,12 @@ public class People {
 		System.out.println("河北省");
 
 	}
+	
+	public void dance(){
+
+
+		System.out.println("我在这里");
+
+	}
 
 }
