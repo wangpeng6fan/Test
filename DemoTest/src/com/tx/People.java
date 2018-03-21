@@ -6,7 +6,9 @@ public class People {
 		System.out.println("父类吃得快");
 	}
 	public void sing(){
-		System.out.println("欢迎电放费");
+
+		System.out.println("佳诚2222");
+
 	}
 
 }
