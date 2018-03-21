@@ -7,7 +7,7 @@ public class People {
 	}
 	public void sing(){
 
-		System.out.println("佳诚2222");
+		System.out.println("我可以");
 
 	}
 
