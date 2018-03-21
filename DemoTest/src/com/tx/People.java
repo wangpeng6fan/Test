@@ -7,7 +7,8 @@ public class People {
 	}
 	public void sing(){
 
-		System.out.println("石家庄");
+
+		System.out.println("河北省");
 
 	}
 
