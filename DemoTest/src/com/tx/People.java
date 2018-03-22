@@ -16,7 +16,7 @@ public class People {
 
 
 
-		System.out.println("跳舞");
+		System.out.println("喝水");
 
 
 
