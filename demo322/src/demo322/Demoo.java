@@ -14,7 +14,7 @@ public class Demoo {
 
 
 
-		System.out.println("喝咖啡");
+		System.out.println("喝酒");
 
 
 
