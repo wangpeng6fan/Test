@@ -1,4 +1,4 @@
-package demo322;
+﻿package demo322;
 
 public class Demoo {
 	
@@ -14,7 +14,8 @@ public class Demoo {
 
 
 
-		System.out.println("喝酒");
+
+		System.out.println("喝水");
 
 
 
