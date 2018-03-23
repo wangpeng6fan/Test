@@ -14,10 +14,14 @@ public class People {
 	
 	public void dance(){
 
-
-
 		System.out.println("跳舞");
 
+
+	}
+	
+	public void drink(){
+
+		System.out.println("喝水");
 
 
 	}
