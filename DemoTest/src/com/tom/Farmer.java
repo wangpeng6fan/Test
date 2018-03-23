@@ -12,7 +12,6 @@ public class Farmer extends People{
 	
 	public void eat(){
 		
-		
 		System.out.println("吃得慢");
 	}
 
