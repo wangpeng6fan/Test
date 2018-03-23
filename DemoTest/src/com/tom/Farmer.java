@@ -17,6 +17,8 @@ public class Farmer extends People{
 	}
 	
 	private String name;
+	
+	private int price;
 
 	
 	
