@@ -22,6 +22,12 @@ public class Farmer extends People{
 		System.out.println("喝水");
 	}
 	
+	public void drink(){
+		
+		
+		System.out.println("喝粥");
+	}
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
           Farmer f=new Farmer();
