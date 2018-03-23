@@ -26,5 +26,12 @@ public class People {
 
 
 	}
+	
+	public void dig(){
+
+		System.out.println("大米饭");
+
+
+	}
 
 }
