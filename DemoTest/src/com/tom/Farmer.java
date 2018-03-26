@@ -14,6 +14,10 @@ public class Farmer extends People{
 		
 		System.out.println("吃得慢");
 	}
+	public void drink(){
+		
+		System.out.println("喝的快");
+	}
 
 	
 	private String name;
