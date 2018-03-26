@@ -18,6 +18,10 @@ public class Farmer extends People{
 		
 		System.out.println("喝的快");
 	}
+	public void shut(){
+		
+		System.out.println("喊得响");
+	}	
 
 	
 	private String name;
