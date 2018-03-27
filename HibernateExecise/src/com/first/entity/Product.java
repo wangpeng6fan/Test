@@ -12,16 +12,23 @@ public class Product {
 		// TODO Auto-generated constructor stub
 	}
 	
-	private int id;
+	private Integer id;
 	private String name;
-	private int price;
+	private Integer price;
 	private String description;
 	
-	public int getId() {
+	
+	public Integer getId() {
 		return id;
 	}
-	public void setId(int id) {
+	public void setId(Integer id) {
 		this.id = id;
+	}
+	public Integer getPrice() {
+		return price;
+	}
+	public void setPrice(Integer price) {
+		this.price = price;
 	}
 	public String getName() {
 		return name;
@@ -29,12 +36,7 @@ public class Product {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public int getPrice() {
-		return price;
-	}
-	public void setPrice(int price) {
-		this.price = price;
-	}
+	
 	public String getDescription() {
 		return description;
 	}
