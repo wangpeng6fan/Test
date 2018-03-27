@@ -2,6 +2,7 @@ package com.first.entity;
 
 public class Product {
 /*
+ * 2018.03.27
  * 不带参数的构造方法
  * 对象的私有属性，例如：id，name等等；
  * 对象的get方法；
@@ -15,7 +16,7 @@ public class Product {
 	private String name;
 	private int price;
 	private String description;
-	private String image;
+	
 	public int getId() {
 		return id;
 	}
@@ -39,12 +40,6 @@ public class Product {
 	}
 	public void setDescription(String description) {
 		this.description = description;
-	}
-	public String getImage() {
-		return image;
-	}
-	public void setImage(String image) {
-		this.image = image;
 	}
 	
 	
