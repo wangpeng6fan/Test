@@ -1,0 +1,20 @@
+
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.first.entity">
+	<class name="Product" table="product">
+		<id name="id" column="id">
+			<generator class="identity">
+				<param name="property">student</param>
+			</generator>
+		</id>
+		<property name="id" />
+		<property name="stuName"/>
+		
+		<!-- 映射 Student Address一对一关联 -->
+		<one-to-one name="student" constrained="true"></one-to-one>
+		<!-- constrained 默认值是false -->
+	</class>
+</hibernate-mapping>
