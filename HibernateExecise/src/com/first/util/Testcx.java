@@ -15,8 +15,8 @@ public class Testcx {
 	}
 	
 	public static void main(String[] args) {
-	    saveProduct();
-//	    updateProduct();
+	    //saveProduct();
+	    updateProduct();
 
 	  }
 	
@@ -76,10 +76,11 @@ public class Testcx {
 	      // ---------------------------------
 	      
 	      //查找Product对象
-	      Product p = session.get(Product.class, 1);
-	      p.setName("猕猴桃");
+	      Product p = session.load(Product.class, 1);
+	      //p.setName("猕猴桃");
+	      p.setDescription("这个东西难得的好吃");
 	      session.update(p);
-	      System.out.println(p.getName());
+	      System.out.println(p.getDescription());
 	      
 	      
 	      //保存
