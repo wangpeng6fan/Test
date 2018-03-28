@@ -25,7 +25,7 @@ public class Testcx {
 	 * 实现商品添加功能
 	 */
 	
-	public static void saveProduct() {
+	public static void saveProduct(){
 	    Session session = null;
 	    Transaction tran = null;
 	    try {
