@@ -16,15 +16,56 @@ public class Testcx {
 	
 	public static void main(String[] args) {
 	    //saveProduct();
-	    updateProduct();
+	   // updateProduct();
+	    deleteProduct();
 
 	  }
+	
+	/*
+	 * 
+	 * 实现商品删除功能
+	 */
+	
+	public static void deleteProduct() {
+		// TODO Auto-generated method stub
+		 Session session = null;
+		    Transaction tran = null;
+		    try {
+		      session = HibernateUtil.openSession();
+		      tran = session.beginTransaction();
+		      // ---------------------------------
+		      
+		      //查找Product对象
+		      Product p = session.load(Product.class, 3);
+		      System.out.println(p.getDescription());
+		      session.delete(p);
+		      
+		      
+		      //保存
+		      session.save(p);
+		     
+
+		      // ---------------------------------
+		      tran.commit();
+		    } catch (Exception e) {
+		      e.printStackTrace();
+		      tran.rollback();
+		    } finally {
+		      if (null != session) {
+		        session.close();
+		      }
+		    }
+		 
+
+		
+	}
 	
 	/*
 	 * 
 	 * 实现商品添加功能
 	 */
 	
+
 	public static void saveProduct(){
 	    Session session = null;
 	    Transaction tran = null;
