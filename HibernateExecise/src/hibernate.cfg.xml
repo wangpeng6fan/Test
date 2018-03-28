@@ -11,7 +11,7 @@
    <!--配置数据库的驱动程序，Hibernate在连接数据库时，需要用到数据库的驱动程序-->     
   <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
    <!--设置数据库的连接url:jdbc:mysql://localhost：3306/dbname,其中localhost表示mysql服务器名称，此处为本机，    dbname是数据库名-->      
-  <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/test</property>
+  <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/test?characterEncoding=UTF-8</property>
   <!-- 连接数据库时数据的传输字符集编码方式 -->
   <property name="hibernate.connection.characterEncoding">UTF-8</property>
   <!--连接数据库时的用户名-->    
